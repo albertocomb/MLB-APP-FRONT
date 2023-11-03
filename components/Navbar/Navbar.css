@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.bg {
+    background-color: #002D72;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: #ffffff;
+}
+
+.key {
+
+    color: red;
+}
+
+/* Navbar.css */
+
+/* Estilo para Nav.Link activo (página actual) */
+.navbar-nav .nav-link.active {
+    color: red;
+    /* Cambia el color de texto a rojo para el enlace activo */
+    /* Agrega otros estilos personalizados para el enlace activo si es necesario */
+}
+
+/* Estilos para Nav.Link al pasar el mouse y después de pasar el mouse */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
+    color: red;
+    /* Establece el color de texto en rojo al pasar el mouse y después de pasar el mouse */
+    background-color: transparent;
+    /* Establece el fondo transparente */
+    /* Agrega otros estilos personalizados al pasar el mouse y después de pasar el mouse */
+}

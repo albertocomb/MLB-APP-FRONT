@@ -1,0 +1,15 @@
+.news-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
